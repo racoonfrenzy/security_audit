@@ -14,7 +14,7 @@ A multi-user web platform for running, scheduling, and reporting on network devi
 - **Per-member scoring** — Score averaged across all devices (100 − risk per device); weighted by severity
 - **Re-run Audit** — Re-run the last audit with saved settings from the dashboard (inline % progress) or the member page
 - **Run Audit auto-fill** — Opening Run Audit pre-fills customer name, business address, reviewing engineer, topology toggle, and ASN selection from the member's last audit run instead of a blank form; the business address also auto-populates from the audited ASN's registered organization address (via a public WHOIS lookup) whenever it's otherwise empty
-- **Automated scheduling** — Re-run audits on a timer (1 day → 12 months)
+- **Automated scheduling** — Re-run audits on a timer (1 day → 12 months). A member left on its default "Follow global default" setting automatically picks up whatever schedule is set in Settings → Audit Configuration, so a global schedule change applies fleet-wide without editing every member; a member can still override to its own interval, or be explicitly set to "Disabled" to never auto-run regardless of the global schedule
 - **HTML + PDF report export** — Full styled customer-facing reports, downloadable as a single HTML file or rendered to PDF
 - **Security Score Trend chart** — Customer reports show a score-over-time chart across all prior audits, with a plain-English improvement/decline summary
 - **Device-level audit breakdown** — Per-device findings with new/resolved diffs against the prior audit
