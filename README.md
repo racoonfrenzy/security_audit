@@ -6,6 +6,33 @@ A multi-user web platform for network device security auditing **and** day-to-da
 
 ---
 
+## Screenshots
+
+All screenshots below use a synthetic demo member ("Example Networks") with placeholder devices/addresses — no real customer data.
+
+**Dashboard** — every member's score, alerts, and IP utilization at a glance
+![Dashboard](docs/screenshots/dashboard.png)
+
+**Member overview** — audit score, location map, and every management tab in one place
+![Member overview](docs/screenshots/member-overview.png)
+
+**Audit report** — scored findings with a prioritized remediation roadmap, exportable as HTML/PDF
+![Audit report](docs/screenshots/audit-report.png)
+
+**Device management** — SNMP/SSH polling, backup status, and per-device actions
+![Devices](docs/screenshots/devices.png)
+
+**Config change history** — every device config version, diffed and approvable
+![Change history](docs/screenshots/change-history.png)
+
+**Automation** — scripted config push across one device or an entire fleet
+![Automation](docs/screenshots/automation.png)
+
+**Credentials manager** — reusable, rotatable SSH credential sets
+![Credentials manager](docs/screenshots/credentials-manager.png)
+
+---
+
 ## Features
 
 ### Auditing & Reporting
